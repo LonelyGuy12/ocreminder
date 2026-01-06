@@ -1,0 +1,4 @@
+#!/bin/bash
+# Wrapper script to use gbase64 instead of macOS base64
+# This fixes the BoringSSL-GRPC whitespace issue
+exec /opt/homebrew/bin/gbase64 "$@"

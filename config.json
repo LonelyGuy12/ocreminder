@@ -1,0 +1,30 @@
+{
+  "app": {
+    "name": "Lonely Reminder",
+    "version": "1.0.0",
+    "description": "An intelligent OCR-based event reminder app."
+  },
+  "owner": {
+    "name": "LonelyGuy12",
+    "email": "lonelyguy12@example.com"
+  },
+  "firebase": {
+    "projectId": "YOUR_FIREBASE_PROJECT_ID",
+    "apiKey": "YOUR_WEB_API_KEY",
+    "authDomain": "YOUR_PROJECT_ID.firebaseapp.com",
+    "androidClientId": "YOUR_ANDROID_CLIENT_ID",
+    "iosClientId": "YOUR_IOS_CLIENT_ID",
+    "androidPackageName": "com.example.lonelyreminder"
+  },
+  "google": {
+    "calendarApi": {
+      "clientId": "YOUR_GOOGLE_CLOUD_CLIENT_ID",
+      "clientSecret": "YOUR_GOOGLE_CLOUD_CLIENT_SECRET",
+      "redirectUri": "http://localhost:8000/oauth2callback"
+    }
+  },
+  "development": {
+    "debugMode": true,
+    "logLevel": "info"
+  }
+}
